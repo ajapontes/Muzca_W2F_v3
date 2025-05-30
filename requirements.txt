@@ -1,0 +1,12 @@
+numpy==2.2.6
+matplotlib==3.10.3
+scikit-learn==1.6.1
+scipy==1.15.3
+tqdm==4.67.1
+optuna==4.3.0
+
+# PyTorch stack con soporte CUDA 12.1+ (instalado desde index extra)
+--extra-index-url https://download.pytorch.org/whl/cu121
+torch==2.7.0
+torchvision==0.22.0
+torchaudio==2.7.0
